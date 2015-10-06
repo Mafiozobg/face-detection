@@ -53,6 +53,7 @@
                                 <rect key="frame" x="280" y="560" width="41" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Effect"/>
+                                <state key="disabled" title="Loading..."/>
                                 <connections>
                                     <action selector="effectButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w08-wm-Y67"/>
                                 </connections>
@@ -74,6 +75,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="effectButton" destination="Edh-i7-n3t" id="YUS-l7-vcN"/>
                         <outlet property="imageView" destination="rYx-kj-JkS" id="mle-ku-5Lo"/>
                     </connections>
                 </viewController>

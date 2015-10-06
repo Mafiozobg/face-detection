@@ -10,7 +10,9 @@
 #import "UIImageView+Subviews.h"
 
 @interface ViewController ()
+
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIButton *effectButton;
 
 @end
 
@@ -53,8 +55,11 @@
 
 - (IBAction)effectButtonAction:(UIButton *)sender {
     [self resetImageViewData];
+    
+    [_effectButton setEnabled:NO];
     [[ACFaceDetector sharedDetector] makeBulgeEyesInImageView:_imageView completion:^(UIImage *image) {
         if (image) [_imageView setImage:image];
+        [_effectButton setEnabled:YES];
     }];
 }
 
