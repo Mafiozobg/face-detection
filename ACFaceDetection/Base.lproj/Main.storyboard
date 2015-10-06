@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rYx-kj-JkS" userLabel="imageView">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <rect key="frame" x="150" y="60" width="300" height="300"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="Hst-1Y-slv"/>
@@ -63,7 +63,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7lE-Fo-4xT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5x7-7e-dOI"/>
-                            <constraint firstItem="rYx-kj-JkS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9fm-5i-5FD"/>
+                            <constraint firstItem="rYx-kj-JkS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="PsA-Ll-Cwz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Edh-i7-n3t" secondAttribute="bottom" constant="10" id="Tgz-vi-uBM"/>
                             <constraint firstItem="rYx-kj-JkS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aQ6-Nz-WDS"/>
                             <constraint firstItem="10C-Gc-yWn" firstAttribute="top" secondItem="7lE-Fo-4xT" secondAttribute="bottom" constant="10" id="ax8-V3-tCP"/>
